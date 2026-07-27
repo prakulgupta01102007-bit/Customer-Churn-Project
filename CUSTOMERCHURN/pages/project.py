@@ -54,9 +54,9 @@ contract = st.selectbox(
 )
 total_spend = st.number_input("Total Spend")
 last_interaction = st.number_input("Last Interaction")
-le_gender = joblib.load("gender_encoder.joblib")
-le_contract = joblib.load("contract_encoder.joblib")
-le_subs = joblib.load("subs_encoder.joblib")
+le_gender = joblib.load(BASE_DIR /"gender_encoder.joblib")
+le_contract = joblib.load(BASE_DIR /"contract_encoder.joblib")
+le_subs = joblib.load(BASE_DIR/"subs_encoder.joblib")
 if st.button("Predict Churn"):
 
     # Encoding
