@@ -34,4 +34,4 @@ st.write('**Python • Scikit-learn • Pandas • SHAP • Streamlit**')
 st.write('Choose a section from the navigation or start with a customer prediction.')
 
 if st.button("PREDICT") :
-    st.switch_page("pages/project.py")
+    st.switch_page("pages/Prediction.py")
